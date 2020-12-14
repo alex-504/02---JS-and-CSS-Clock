@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>JS + CSS Clock</title>
-</head>
-<body>
-
-
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
-      </div>
-    </div>
-
-
-  <style>
     html {
-      background: #018DED url(https://images.unsplash.com/photo-1597484661973-ee6cd0b6482c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+      background: #018DED url(https://images.unsplash.com/photo-1528757980793-e9642d47816a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTZ8fGJsdWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
       background-position: 10px;
       background-size: cover;
       font-family: 'helvetica neue';
@@ -64,12 +45,3 @@
       position: absolute;
       top: 50%;
     }
-
-  </style>
-
-  <script>
-
-
-  </script>
-</body>
-</html>
