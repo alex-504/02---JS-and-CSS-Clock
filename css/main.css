@@ -1,10 +1,27 @@
     html {
-      background: #018DED url(https://images.unsplash.com/photo-1528757980793-e9642d47816a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTZ8fGJsdWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+      background: #018DED url(https://data.whicdn.com/images/340869740/original.gif);
       background-position: 10px;
       background-size: cover;
-      font-family: 'helvetica neue';
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align: center;
-      font-size: 10px;
+      color: white;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
     }
 
     body {
@@ -51,4 +68,22 @@
       transform: rotate(90deg);
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+
+    }
+
+    .second-hand {
+      background: rgb(174, 91, 91);
+      height: 3px;
+    }
+
+    .container {
+      margin: 20px auto;
+    }
+
+    h1 {
+      font-family: 'arial';
+    }
+
+    body {
+      margin: auto;
     }
